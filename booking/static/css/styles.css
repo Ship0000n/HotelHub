@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #007bff;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero {
+    background-image: url('/booking/static/images/Soneva\ Fushi_\ Barefoot\ Luxury.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 150px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.popular-hotels {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.popular-hotels h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.hotel-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hotel-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.hotel-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hotel-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hotel-card p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.hotel-card .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hotel-card .rating img {
+    margin-left: 5px;
+}
+
+.why-choose-us {
+    padding: 50px 0;
+    background-color: white;
+}
+
+.why-choose-us h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #777;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
